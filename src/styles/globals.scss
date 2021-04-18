@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "nunito";
+  src: url('assets/Nunito/Nunito-Regular.ttf');
+}
+@font-face {
+  font-family: "spaceGrotesk";
+  src: url('assets/SpaceGrotesk/webfont/SpaceGrotesk-Regular.woff2');
+}
+
+.subtitle {
+  font-family: 'spaceGrotesk', sans-serif;
+  @apply text-2xl font-bold mb-2 sm:mb-4
+}
+
+.wrapper {
+  margin-bottom: 120px;
+}
